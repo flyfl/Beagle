@@ -1,10 +1,14 @@
 package de.uka.ipd.sdq.beagle.core.judge;
 
 import de.uka.ipd.sdq.beagle.core.Blackboard;
+import de.uka.ipd.sdq.beagle.core.MeasurableSeffElement;
+import de.uka.ipd.sdq.beagle.core.evaluableexpressions.EvaluableExpression;
+
+
 
 /**
  * As last running entity of Beagle's core, the FinalJudge adopts two tasks.
- * Firstly, it decides for each {@link MeasureableSeffElement} which available {@link EvaluableExpression} from the
+ * Firstly, it decides for each {@link MeasurableSeffElement} which available {@link EvaluableExpression} from the
  * {@link Blackboard} will be taken as final version, marking it as the currently best fitting expression.
  * Secondly, it gives response if the analysing process has reached an end or should keep going on.
  * @author Ansgar Spiegler
